@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hand and Foot</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type='text/javascript' src='script.js'></script>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' 
+          rel='stylesheet' type='text/cs'>
+    </head>
+    <body>
+        <div id="header"><h1>Hand and Foot</h1></div>
+	        <div id="wrapperDiv">
+	            <div id="setupDiv">
+	            	<div id="buttonsDiv">
+	                    <input type="button" value="Clear Names" onclick="clearNames()">
+	                    <input type="button" value="Random Seats" onclick="randomSeats()">
+	                    <input type="button" value="Random Start" onclick="randomStart()">
+	                    <input type="button" value="Clear Scores" onclick="clearScores()">
+	            	</div>
+	                <table>
+	                    <tr>
+	                        <th class="colTitles">Setup:</th>
+	                        <th> Team 1</th>
+	                        <th> Team 2</th>
+	                        <th> Team 3</th>
+	                    </tr>
+	                    <tr>
+	                        <th class="colTitles">Players:</th>
+	                        <th><input type="text" id="seat0" onchange="updateNames()"><br>
+	                            <input type="text" id="seat3" onchange="updateNames()"></th>
+	                        <th><input type="text" id="seat1" onchange="updateNames()"><br>
+	                            <input type="text" id="seat4" onchange="updateNames()"></th>
+	                        <th><input type="text" id="seat2" onchange="updateNames()"><br>
+	                            <input type="text" id="seat5" onchange="updateNames()"></th>
+	                    </tr>
+	                </table>
+	            </div>
+	            <div id="roundsArea">
+	            </div>
+            </div>
+        </div>
+    </body>
+</html>

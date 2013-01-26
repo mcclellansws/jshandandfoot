@@ -1,0 +1,82 @@
+#header {
+    position: relative;
+    top: -10px;
+    background-color: #461BE0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 3px 3px 3px #444;
+    height: 40px;
+    width: 652px;
+}
+
+h1 {
+    font-family: Lobster;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    display: inline-block;
+}
+
+table {
+    border: 1px blue solid;
+    box-shadow: 3px 3px 3px #444;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#setupDiv table {
+	margin: 0 auto;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#buttonsDiv {
+    position:relative;
+    float:left;
+    left:50%;
+    margin-bottom: 10px;
+}
+#buttonsDiv input {
+    position:relative;
+    float:left;
+    left:-50%;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    color: #777;
+}
+
+textarea {
+	vertical-align: top;
+	width: 100px;
+	color: #777;
+}
+
+#wrapperDiv {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position:relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #444;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+    width: 630px;
+}
+
+.totals {
+    text-align: left;
+}
+
+.colTitles {
+    text-align: right;
+}
