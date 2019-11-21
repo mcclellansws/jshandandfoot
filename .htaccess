@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^haf\.gfiowa\.us$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.haf\.gfiowa\.us$
+RewriteRule ^/?$ "http\:\/\/gfiowa\.us\/haf\/" [R=301,L]
+
